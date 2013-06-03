@@ -1,5 +1,6 @@
 <?php
-    shell_exec(getcwd()."/inc/call-less-compiler.bat");
+    // shell_exec(getcwd()."/inc/call-less-compiler.bat");
+    shell_exec("node js/less-compiler.js")
 ?>
 <!DOCTYPE html>
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
